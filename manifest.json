@@ -1,0 +1,18 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Mullvad vpn controller",
+    "description": "Controll mullvad vpn conviniantly from Ulauncher",
+    "developer_name": "Gwilym Rutherford",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.05
+    },
+    "preferences": [
+        {
+            "id": "kw_mullvad",
+            "type": "keyword",
+            "name": "Keyword",
+            "default_value": "mv"
+        }
+    ]
+}
